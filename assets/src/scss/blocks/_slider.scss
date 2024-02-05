@@ -1,0 +1,61 @@
+.slider-block {
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+
+    .navigation-slider .navigation.active svg circle {
+        fill: #D75C00;
+    }
+
+    .slide-item .overlay-content-wrapper {
+        opacity: 0;
+        transition: opacity .4s ease;
+    }
+
+    .slide-item.active .overlay-content-wrapper {
+        opacity: 1;
+    }
+
+    .slide-item .overlay-button-wrapper {
+        rotate: 0deg;
+        transition: all .4s ease;
+    }
+    .slide-item.active .overlay-button-wrapper {
+        rotate: 45deg;
+    }
+
+    
+
+
+
+
+    .image-wrapper {
+        padding-top: 150%;
+    }
+    @media(max-width: 1024px) {
+        .object-left {
+            object-position: left;
+        }
+        .object-right {
+            object-position: right;
+        }
+        .object-center {
+            object-position: center;
+        }
+    }
+    @media(min-width:768px) {
+        .image-wrapper {
+            padding-top: 100%;
+        }
+    }
+    @media(min-width: 1024px) {
+        .image-wrapper {
+            padding-top: 60%;
+        }
+    }
+
+    .container{margin-left:auto;margin-right:auto;width:100%}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}@media (min-width:1536px){.container{max-width:1536px}}.container{margin-left:auto;margin-right:auto;max-width:100%;padding-left:30px;padding-right:30px}@media (min-width:1024px){.container{padding-left:40px;padding-right:40px}}@media (min-width:1536px){.container{padding-left:75px;padding-right:75px}}@media (min-width:1280px){.container{max-width:1140px;padding-left:3.75rem;padding-right:3.75rem;width:100%}}.container-fluid{margin-left:auto;margin-right:auto;max-width:100%;padding-left:30px;padding-right:30px}@media (min-width:1024px){.container-fluid{padding-left:45px;padding-right:45px}}@media (min-width:1536px){.container-fluid{padding-left:75px;padding-right:75px}}
+}

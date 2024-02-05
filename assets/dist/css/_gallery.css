@@ -1,0 +1,598 @@
+.gallery-block.custom-block {
+  @import "aos/dist/aos.css";
+}
+  .gallery-block.custom-block *, .gallery-block.custom-block ::before, .gallery-block.custom-block ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  
+}
+  .gallery-block.custom-block ::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  
+}
+  .gallery-block.custom-block .container {
+  width: 100%
+}
+  @media (min-width: 640px) {
+  .gallery-block.custom-block .container {
+    max-width: 640px
+  }
+}
+  @media (min-width: 768px) {
+  .gallery-block.custom-block .container {
+    max-width: 768px
+  }
+}
+  @media (min-width: 1024px) {
+  .gallery-block.custom-block .container {
+    max-width: 1024px
+  }
+}
+  @media (min-width: 1280px) {
+  .gallery-block.custom-block .container {
+    max-width: 1280px
+  }
+}
+  @media (min-width: 1536px) {
+  .gallery-block.custom-block .container {
+    max-width: 1536px
+  }
+}
+  .gallery-block.custom-block .visible {
+  visibility: visible
+}
+  .gallery-block.custom-block .fixed {
+  position: fixed
+}
+  .gallery-block.custom-block .absolute {
+  position: absolute
+}
+  .gallery-block.custom-block .relative {
+  position: relative
+}
+  .gallery-block.custom-block .-inset-\[1px\] {
+  inset: -1px
+}
+  .gallery-block.custom-block .inset-0 {
+  inset: 0px
+}
+  .gallery-block.custom-block .-bottom-\[4px\] {
+  bottom: -4px
+}
+  .gallery-block.custom-block .bottom-0 {
+  bottom: 0px
+}
+  .gallery-block.custom-block .bottom-4 {
+  bottom: 1rem
+}
+  .gallery-block.custom-block .left-20 {
+  left: 5rem
+}
+  .gallery-block.custom-block .right-0 {
+  right: 0px
+}
+  .gallery-block.custom-block .right-24 {
+  right: 6rem
+}
+  .gallery-block.custom-block .right-32 {
+  right: 8rem
+}
+  .gallery-block.custom-block .right-4 {
+  right: 1rem
+}
+  .gallery-block.custom-block .right-\[16px\] {
+  right: 16px
+}
+  .gallery-block.custom-block .top-0 {
+  top: 0px
+}
+  .gallery-block.custom-block .top-4 {
+  top: 1rem
+}
+  .gallery-block.custom-block .top-5 {
+  top: 1.25rem
+}
+  .gallery-block.custom-block .-z-10 {
+  z-index: -10
+}
+  .gallery-block.custom-block .z-10 {
+  z-index: 10
+}
+  .gallery-block.custom-block .z-20 {
+  z-index: 20
+}
+  .gallery-block.custom-block .col-span-12 {
+  grid-column: span 12 / span 12
+}
+  .gallery-block.custom-block .m-3 {
+  margin: 0.75rem
+}
+  .gallery-block.custom-block .mx-auto {
+  margin-left: auto;
+  margin-right: auto
+}
+  .gallery-block.custom-block .mb-10 {
+  margin-bottom: 2.5rem
+}
+  .gallery-block.custom-block .mb-2 {
+  margin-bottom: 0.5rem
+}
+  .gallery-block.custom-block .mb-2\.5 {
+  margin-bottom: 0.625rem
+}
+  .gallery-block.custom-block .mb-4 {
+  margin-bottom: 1rem
+}
+  .gallery-block.custom-block .mb-6 {
+  margin-bottom: 1.5rem
+}
+  .gallery-block.custom-block .mb-7 {
+  margin-bottom: 1.75rem
+}
+  .gallery-block.custom-block .mb-8 {
+  margin-bottom: 2rem
+}
+  .gallery-block.custom-block .mr-3 {
+  margin-right: 0.75rem
+}
+  .gallery-block.custom-block .mt-4 {
+  margin-top: 1rem
+}
+  .gallery-block.custom-block .block {
+  display: block
+}
+  .gallery-block.custom-block .inline-block {
+  display: inline-block
+}
+  .gallery-block.custom-block .flex {
+  display: flex
+}
+  .gallery-block.custom-block .grid {
+  display: grid
+}
+  .gallery-block.custom-block .hidden {
+  display: none
+}
+  .gallery-block.custom-block .\!h-full {
+  height: 100% !important
+}
+  .gallery-block.custom-block .h-\[2px\] {
+  height: 2px
+}
+  .gallery-block.custom-block .h-\[300px\] {
+  height: 300px
+}
+  .gallery-block.custom-block .h-\[32px\] {
+  height: 32px
+}
+  .gallery-block.custom-block .h-\[400px\] {
+  height: 400px
+}
+  .gallery-block.custom-block .h-\[600px\] {
+  height: 600px
+}
+  .gallery-block.custom-block .h-auto {
+  height: auto
+}
+  .gallery-block.custom-block .h-full {
+  height: 100%
+}
+  .gallery-block.custom-block .w-\[100px\] {
+  width: 100px
+}
+  .gallery-block.custom-block .w-\[26px\;\] {
+  width: 26px;
+}
+  .gallery-block.custom-block .w-\[32px\] {
+  width: 32px
+}
+  .gallery-block.custom-block .w-full {
+  width: 100%
+}
+  .gallery-block.custom-block .max-w-5xl {
+  max-width: 64rem
+}
+  .gallery-block.custom-block .grow-0 {
+  flex-grow: 0
+}
+  .gallery-block.custom-block .translate-y-1\/4 {
+  --tw-translate-y: 25%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+  .gallery-block.custom-block .rotate-45 {
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+  .gallery-block.custom-block .transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+  .gallery-block.custom-block .cursor-pointer {
+  cursor: pointer
+}
+  .gallery-block.custom-block .grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr))
+}
+  .gallery-block.custom-block .flex-col {
+  flex-direction: column
+}
+  .gallery-block.custom-block .flex-nowrap {
+  flex-wrap: nowrap
+}
+  .gallery-block.custom-block .items-center {
+  align-items: center
+}
+  .gallery-block.custom-block .justify-center {
+  justify-content: center
+}
+  .gallery-block.custom-block .gap-5 {
+  gap: 1.25rem
+}
+  .gallery-block.custom-block .gap-8 {
+  gap: 2rem
+}
+  .gallery-block.custom-block .gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem
+}
+  .gallery-block.custom-block .gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem
+}
+  .gallery-block.custom-block .gap-x-4 {
+  -moz-column-gap: 1rem;
+       column-gap: 1rem
+}
+  .gallery-block.custom-block .gap-x-8 {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem
+}
+  .gallery-block.custom-block .gap-y-6 {
+  row-gap: 1.5rem
+}
+  .gallery-block.custom-block .overflow-hidden {
+  overflow: hidden
+}
+  .gallery-block.custom-block .overflow-x-hidden {
+  overflow-x: hidden
+}
+  .gallery-block.custom-block .overflow-y-scroll {
+  overflow-y: scroll
+}
+  .gallery-block.custom-block .border {
+  border-width: 1px
+}
+  .gallery-block.custom-block .border-airbali-theme {
+  --tw-border-opacity: 1;
+  border-color: rgb(215 92 0 / var(--tw-border-opacity))
+}
+  .gallery-block.custom-block .bg-\[\#636569\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(99 101 105 / var(--tw-bg-opacity))
+}
+  .gallery-block.custom-block .bg-airbali-theme {
+  --tw-bg-opacity: 1;
+  background-color: rgb(215 92 0 / var(--tw-bg-opacity))
+}
+  .gallery-block.custom-block .bg-black\/70 {
+  background-color: rgb(0 0 0 / 0.7)
+}
+  .gallery-block.custom-block .bg-dark-grey {
+  --tw-bg-opacity: 1;
+  background-color: rgb(99 101 105 / var(--tw-bg-opacity))
+}
+  .gallery-block.custom-block .bg-darker-grey {
+  --tw-bg-opacity: 1;
+  background-color: rgb(65 74 80 / var(--tw-bg-opacity))
+}
+  .gallery-block.custom-block .bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity))
+}
+  .gallery-block.custom-block .object-cover {
+  -o-object-fit: cover;
+     object-fit: cover
+}
+  .gallery-block.custom-block .object-center {
+  -o-object-position: center;
+     object-position: center
+}
+  .gallery-block.custom-block .object-left {
+  -o-object-position: left;
+     object-position: left
+}
+  .gallery-block.custom-block .object-right {
+  -o-object-position: right;
+     object-position: right
+}
+  .gallery-block.custom-block .p-3 {
+  padding: 0.75rem
+}
+  .gallery-block.custom-block .px-0 {
+  padding-left: 0px;
+  padding-right: 0px
+}
+  .gallery-block.custom-block .px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem
+}
+  .gallery-block.custom-block .px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem
+}
+  .gallery-block.custom-block .px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem
+}
+  .gallery-block.custom-block .px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem
+}
+  .gallery-block.custom-block .py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem
+}
+  .gallery-block.custom-block .py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem
+}
+  .gallery-block.custom-block .pt-\[125\%\] {
+  padding-top: 125%
+}
+  .gallery-block.custom-block .pt-\[420px\] {
+  padding-top: 420px
+}
+  .gallery-block.custom-block .pt-\[75\%\] {
+  padding-top: 75%
+}
+  .gallery-block.custom-block .font-light {
+  font-weight: 300
+}
+  .gallery-block.custom-block .uppercase {
+  text-transform: uppercase
+}
+  .gallery-block.custom-block .text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+  .gallery-block.custom-block .grayscale {
+  --tw-grayscale: grayscale(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
+}
+  .gallery-block.custom-block .filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
+}
+  .gallery-block.custom-block .transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms
+}
+  @media (min-width: 768px) {
+  .gallery-block.custom-block .md\:col-span-5 {
+    grid-column: span 5 / span 5
+  }
+}
+  @media (min-width: 768px) {
+  .gallery-block.custom-block .md\:col-span-7 {
+    grid-column: span 7 / span 7
+  }
+}
+  @media (min-width: 768px) {
+  .gallery-block.custom-block .md\:h-full {
+    height: 100%
+  }
+}
+  @media (min-width: 768px) {
+  .gallery-block.custom-block .md\:pt-0 {
+    padding-top: 0px
+  }
+}
+  @media (min-width: 768px) {
+  .gallery-block.custom-block .md\:pt-\[50\%\] {
+    padding-top: 50%
+  }
+}
+  @media (min-width: 1024px) {
+  .gallery-block.custom-block .lg\:col-span-5 {
+    grid-column: span 5 / span 5
+  }
+}
+  @media (min-width: 1024px) {
+  .gallery-block.custom-block .lg\:col-span-7 {
+    grid-column: span 7 / span 7
+  }
+}
+  @media (min-width: 1024px) {
+  .gallery-block.custom-block .lg\:mb-0 {
+    margin-bottom: 0px
+  }
+}
+  @media (min-width: 1024px) {
+  .gallery-block.custom-block .lg\:flex {
+    display: flex
+  }
+}
+  @media (min-width: 1024px) {
+  .gallery-block.custom-block .lg\:w-\[50vw\] {
+    width: 50vw
+  }
+}
+  @media (min-width: 1024px) {
+  .gallery-block.custom-block .lg\:flex-row {
+    flex-direction: row
+  }
+}
+  @media (min-width: 1024px) {
+  .gallery-block.custom-block .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem
+  }
+}
+  @media (min-width: 1024px) {
+  .gallery-block.custom-block .lg\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem
+  }
+}
+  @media (min-width: 1024px) {
+  .gallery-block.custom-block .lg\:px-9 {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem
+  }
+}
+  @media (min-width: 1024px) {
+  .gallery-block.custom-block .lg\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem
+  }
+}
+  @media (min-width: 1024px) {
+  .gallery-block.custom-block .lg\:pr-12 {
+    padding-right: 3rem
+  }
+}
+  @media (min-width: 1024px) {
+  .gallery-block.custom-block .lg\:pt-\[420px\] {
+    padding-top: 420px
+  }
+}
+  @media (min-width: 1024px) {
+  .gallery-block.custom-block .lg\:pt-\[75\%\] {
+    padding-top: 75%
+  }
+}
+  @media (min-width: 1280px) {
+  .gallery-block.custom-block .xl\:col-span-3 {
+    grid-column: span 3 / span 3
+  }
+}
+  @media (min-width: 1280px) {
+  .gallery-block.custom-block .xl\:col-span-4 {
+    grid-column: span 4 / span 4
+  }
+}
+  @media (min-width: 1280px) {
+  .gallery-block.custom-block .xl\:col-span-8 {
+    grid-column: span 8 / span 8
+  }
+}
+  @media (min-width: 1280px) {
+  .gallery-block.custom-block .xl\:mb-8 {
+    margin-bottom: 2rem
+  }
+}
+  @media (min-width: 1280px) {
+  .gallery-block.custom-block .xl\:block {
+    display: block
+  }
+}
+  @media (min-width: 1280px) {
+  .gallery-block.custom-block .xl\:hidden {
+    display: none
+  }
+}
+  @media (min-width: 1280px) {
+  .gallery-block.custom-block .xl\:h-\[600px\] {
+    height: 600px
+  }
+}
+  @media (min-width: 1280px) {
+  .gallery-block.custom-block .xl\:h-screen {
+    height: 100vh
+  }
+}
+  @media (min-width: 1280px) {
+  .gallery-block.custom-block .xl\:items-center {
+    align-items: center
+  }
+}

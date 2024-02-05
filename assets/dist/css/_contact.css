@@ -1,0 +1,24 @@
+.custom-select label, .custom-select select, .custom-select span.select2 {
+  width: 100% !important;
+}
+.custom-select span.select2 {
+  border-bottom: 1px solid #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.custom-select .select2-selection {
+  border: 0;
+  background-color: #636569;
+}
+.custom-select .select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #fff;
+}
+.custom-select .select2-dropdown {
+  color: #fff;
+  background-color: #636569;
+}
+
+.select2-container.select2-container--default .select2-search--dropdown .select2-search__field {
+  background-color: #636569;
+  color: #fff;
+}

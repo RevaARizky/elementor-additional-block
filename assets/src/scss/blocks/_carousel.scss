@@ -1,0 +1,9 @@
+@import 'swiper/css';
+@import 'swiper/css/effect-fade';
+@import 'swiper/css/effect-creative';
+.carousel-block {
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    @tailwind screens;
+}

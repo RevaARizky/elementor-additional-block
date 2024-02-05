@@ -1,0 +1,19 @@
+{
+    "/dist/js/carousel.js": "/dist/js/carousel.js",
+    "/dist/js/gallery.js": "/dist/js/gallery.js",
+    "/dist/js/image-overlay.js": "/dist/js/image-overlay.js",
+    "/dist/js/itrac.js": "/dist/js/itrac.js",
+    "/dist/js/map-control.js": "/dist/js/map-control.js",
+    "/dist/js/slider.js": "/dist/js/slider.js",
+    "/dist/js/text-hover.js": "/dist/js/text-hover.js",
+    "/dist/js/contact.js": "/dist/js/contact.js",
+    "/dist/css/_map-control.css": "/dist/css/_map-control.css",
+    "/dist/css/_itrac.css": "/dist/css/_itrac.css",
+    "/dist/css/_image-overlay.css": "/dist/css/_image-overlay.css",
+    "/dist/css/_gallery.css": "/dist/css/_gallery.css",
+    "/dist/css/_carousel.css": "/dist/css/_carousel.css",
+    "/dist/css/_contact.css": "/dist/css/_contact.css",
+    "/dist/css/_text-hover.css": "/dist/css/_text-hover.css",
+    "/dist/css/_team.css": "/dist/css/_team.css",
+    "/dist/css/_slider.css": "/dist/css/_slider.css"
+}

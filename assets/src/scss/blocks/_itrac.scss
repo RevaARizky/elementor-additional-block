@@ -1,0 +1,46 @@
+.itrac-block.custom-block {
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    @tailwind screens;
+    @import 'swiper/css';
+    @import 'swiper/css/effect-fade';
+    @import 'swiper/css/parallax';
+
+    .text-title{
+        font-size: 30px;
+    }
+    
+    /* @media screen and (min-width: 700px) and (max-width: 1025px) {
+        .text-title{
+            font-size: 42px;
+        }
+    } */
+    .text-phara{
+        font-family: "Open Sans";
+        font-size: 18px;
+    }
+    .swiper-wrapper {
+        height: auto;
+    }
+    @media only screen and (max-width:428px){
+        .text-title{
+            font-size: 18px;
+        }
+            .text-hover-block .text-title{
+            font-size: 18px;
+        }
+            .text-overlay{
+            font-size: 14px;
+        }
+            .text-phara{
+            font-size: 14px;
+            font-family: "Open Sans";
+        }
+            .text-hover-block .text-phara{
+            font-size: 14px;
+            font-family: "Open Sans";
+        }
+    }
+      
+}
