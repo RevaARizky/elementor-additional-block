@@ -15,7 +15,7 @@ add_action('wp_enqueue_scripts', function () {
     wp_register_style("$styleName-slider", additional_blocks_assets_url('/dist/css/_slider.css'), [], null);
     wp_register_style("$styleName-team", additional_blocks_assets_url('/dist/css/_team.css'), [], null);
     wp_register_style("$styleName-text-hover", additional_blocks_assets_url('/dist/css/_text-hover.css'), [], null);
-    wp_register_style("$styleName-contact", additional_blocks_assets_url('/dist/css/_contact.css'), [], null);
+    wp_enqueue_style("$styleName-contact", additional_blocks_assets_url('/dist/css/_contact.css'), [], null);
 
     /** Register custom JS */
     $scriptName = 'elementor-script-custom';
