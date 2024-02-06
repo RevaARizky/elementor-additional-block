@@ -338,11 +338,11 @@
   .custom-widget.map-control .overflow-hidden {
     overflow: hidden
 }
+  .custom-widget.map-control .overflow-y-auto {
+    overflow-y: auto
+}
   .custom-widget.map-control .overflow-x-hidden {
     overflow-x: hidden
-}
-  .custom-widget.map-control .overflow-y-scroll {
-    overflow-y: scroll
 }
   .custom-widget.map-control .border {
     border-width: 1px

@@ -9,6 +9,16 @@ var __webpack_exports__ = {};
     if (!mainel.length) {
       return false;
     }
+    var checkOverflow = function checkOverflow(elem) {
+      var elemWidth = elem.getBoundingClientRect().width;
+      var parentWidth = elem.parentElement.getBoundingClientRect().width;
+      return elemWidth > parentWidth;
+    };
+    mainel.forEach(function (el) {
+      if (!checkOverflow(el.querySelector('.overlay-content-wrapper p'))) {
+        el.querySelector('.overlay-content-wrapper').classList.add('flex', 'justify-center', 'items-center');
+      }
+    });
     mainel.forEach(function (el) {
       var triggerButton = el.querySelector('.overlay-button-trigger');
       var imageWrapper = el.querySelector('.image-wrapper');

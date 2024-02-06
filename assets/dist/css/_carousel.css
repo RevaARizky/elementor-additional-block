@@ -667,12 +667,12 @@
   overflow: hidden;
 }
 
-.carousel-block .overflow-x-hidden {
-  overflow-x: hidden;
+.carousel-block .overflow-y-auto {
+  overflow-y: auto;
 }
 
-.carousel-block .overflow-y-scroll {
-  overflow-y: scroll;
+.carousel-block .overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .carousel-block .border {

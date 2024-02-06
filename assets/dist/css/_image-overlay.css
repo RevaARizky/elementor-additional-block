@@ -338,11 +338,11 @@
   .image-overlay-block .overflow-hidden {
   overflow: hidden;
 }
+  .image-overlay-block .overflow-y-auto {
+  overflow-y: auto;
+}
   .image-overlay-block .overflow-x-hidden {
   overflow-x: hidden;
-}
-  .image-overlay-block .overflow-y-scroll {
-  overflow-y: scroll;
 }
   .image-overlay-block .border {
   border-width: 1px;

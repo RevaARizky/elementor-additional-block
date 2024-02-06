@@ -42,7 +42,6 @@ var __webpack_exports__ = {};
 
       $('a').each(function (i, el) {
         var url = $(el).attr('href');
-        console.log(url, el);
         switch (url) {
           case "https://ab.gaiada.com/the-experience":
           case "https://ab.gaiada.com/the-experience/":

@@ -338,11 +338,11 @@
   .team-block .overflow-hidden {
     overflow: hidden
 }
+  .team-block .overflow-y-auto {
+    overflow-y: auto
+}
   .team-block .overflow-x-hidden {
     overflow-x: hidden
-}
-  .team-block .overflow-y-scroll {
-    overflow-y: scroll
 }
   .team-block .border {
     border-width: 1px

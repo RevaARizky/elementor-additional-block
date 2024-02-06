@@ -338,11 +338,11 @@
   .slider-block .overflow-hidden {
   overflow: hidden;
 }
+  .slider-block .overflow-y-auto {
+  overflow-y: auto;
+}
   .slider-block .overflow-x-hidden {
   overflow-x: hidden;
-}
-  .slider-block .overflow-y-scroll {
-  overflow-y: scroll;
 }
   .slider-block .border {
   border-width: 1px;

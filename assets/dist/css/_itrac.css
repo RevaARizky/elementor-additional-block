@@ -356,11 +356,11 @@
   .itrac-block.custom-block .overflow-hidden {
   overflow: hidden;
 }
+  .itrac-block.custom-block .overflow-y-auto {
+  overflow-y: auto;
+}
   .itrac-block.custom-block .overflow-x-hidden {
   overflow-x: hidden;
-}
-  .itrac-block.custom-block .overflow-y-scroll {
-  overflow-y: scroll;
 }
   .itrac-block.custom-block .border {
   border-width: 1px;

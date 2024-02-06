@@ -7,6 +7,18 @@
             return false
         }
 
+        const checkOverflow = (elem) => {
+            const elemWidth = elem.getBoundingClientRect().width
+            const parentWidth = elem.parentElement.getBoundingClientRect().width
+        
+            return elemWidth > parentWidth
+        }
+
+        mainel.forEach(el => {
+            if(!checkOverflow(el.querySelector('.overlay-content-wrapper p'))) {
+                el.querySelector('.overlay-content-wrapper').classList.add('flex', 'justify-center', 'items-center')
+            }
+        })
 
         mainel.forEach(el => {
             var triggerButton = el.querySelector('.overlay-button-trigger')

@@ -341,11 +341,11 @@
   .gallery-block.custom-block .overflow-hidden {
   overflow: hidden
 }
+  .gallery-block.custom-block .overflow-y-auto {
+  overflow-y: auto
+}
   .gallery-block.custom-block .overflow-x-hidden {
   overflow-x: hidden
-}
-  .gallery-block.custom-block .overflow-y-scroll {
-  overflow-y: scroll
 }
   .gallery-block.custom-block .border {
   border-width: 1px

@@ -338,11 +338,11 @@
   .text-hover-block .overflow-hidden {
   overflow: hidden;
 }
+  .text-hover-block .overflow-y-auto {
+  overflow-y: auto;
+}
   .text-hover-block .overflow-x-hidden {
   overflow-x: hidden;
-}
-  .text-hover-block .overflow-y-scroll {
-  overflow-y: scroll;
 }
   .text-hover-block .border {
   border-width: 1px;
