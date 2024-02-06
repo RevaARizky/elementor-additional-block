@@ -10,8 +10,8 @@ var __webpack_exports__ = {};
       return false;
     }
     var checkOverflow = function checkOverflow(elem) {
-      var elemWidth = elem.getBoundingClientRect().width;
-      var parentWidth = elem.parentElement.getBoundingClientRect().width;
+      var elemWidth = elem.getBoundingClientRect().height;
+      var parentWidth = elem.parentElement.getBoundingClientRect().height;
       return elemWidth > parentWidth;
     };
     mainel.forEach(function (el) {

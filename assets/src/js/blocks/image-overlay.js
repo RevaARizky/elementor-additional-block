@@ -8,8 +8,8 @@
         }
 
         const checkOverflow = (elem) => {
-            const elemWidth = elem.getBoundingClientRect().width
-            const parentWidth = elem.parentElement.getBoundingClientRect().width
+            const elemWidth = elem.getBoundingClientRect().height
+            const parentWidth = elem.parentElement.getBoundingClientRect().height
         
             return elemWidth > parentWidth
         }
