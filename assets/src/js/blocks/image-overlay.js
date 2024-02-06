@@ -15,12 +15,6 @@
         }
 
         mainel.forEach(el => {
-            if(!checkOverflow(el.querySelector('.overlay-content-wrapper p'))) {
-                el.querySelector('.overlay-content-wrapper').classList.add('flex', 'justify-center', 'items-center')
-            }
-        })
-
-        mainel.forEach(el => {
             var triggerButton = el.querySelector('.overlay-button-trigger')
             var imageWrapper = el.querySelector('.image-wrapper')
             triggerButton.addEventListener('click', () => {
@@ -46,8 +40,12 @@
         }
         setTimeout(() => {
             sameHeight('.elementor-widget.elementor-widget-custom-image-overlay')
+            mainel.forEach(el => {
+                if(!checkOverflow(el.querySelector('.overlay-content-wrapper p'))) {
+                    el.querySelector('.overlay-content-wrapper').classList.add('flex', 'justify-center', 'items-center')
+                }
+            })
         }, 2000)
-        
 
     })
 

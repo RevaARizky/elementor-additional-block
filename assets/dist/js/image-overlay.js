@@ -15,11 +15,6 @@ var __webpack_exports__ = {};
       return elemWidth > parentWidth;
     };
     mainel.forEach(function (el) {
-      if (!checkOverflow(el.querySelector('.overlay-content-wrapper p'))) {
-        el.querySelector('.overlay-content-wrapper').classList.add('flex', 'justify-center', 'items-center');
-      }
-    });
-    mainel.forEach(function (el) {
       var triggerButton = el.querySelector('.overlay-button-trigger');
       var imageWrapper = el.querySelector('.image-wrapper');
       triggerButton.addEventListener('click', function () {
@@ -43,6 +38,11 @@ var __webpack_exports__ = {};
     };
     setTimeout(function () {
       sameHeight('.elementor-widget.elementor-widget-custom-image-overlay');
+      mainel.forEach(function (el) {
+        if (!checkOverflow(el.querySelector('.overlay-content-wrapper p'))) {
+          el.querySelector('.overlay-content-wrapper').classList.add('flex', 'justify-center', 'items-center');
+        }
+      });
     }, 2000);
   });
 })(jQuery);
