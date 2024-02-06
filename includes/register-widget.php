@@ -49,5 +49,9 @@ function register_additional_blocks( $widgets_manager ) {
 
 	$widgets_manager->register( new \Elementor_Text_Hover_Widget() );
 
+	require_once( __DIR__ . '/../widgets/slick-extra-widget.php' );
+
+	$widgets_manager->register( new \Elementor_Slick_Extra_Widget() );
+
 }
 add_action( 'elementor/widgets/register', 'register_additional_blocks' );
