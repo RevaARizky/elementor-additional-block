@@ -108,7 +108,6 @@ class Elementor_Itrac_Widget extends \Elementor\Widget_Base {
 	 */
 	protected function register_controls() {
 
-		do_action( 'jet-engine-query-gateway/control', $this, 'items_list' );
 
 		$this->start_controls_section(
 			'content_section',
@@ -189,22 +188,6 @@ class Elementor_Itrac_Widget extends \Elementor\Widget_Base {
 					'active' => true
 				]
 			]
-		);
-
-		$this->add_control(
-			'template_id',
-			array(
-				'label'       => esc_html__( 'Choose Template', 'jet-elements' ),
-				'type'        => 'jet-query',
-				'query_type'  => 'elementor_templates',
-				'edit_button' => array(
-					'active' => true,
-					'label'  => __( 'Edit Template', 'jet-elements' ),
-				),
-				'condition'   => array(
-					'item_content_type' => 'template',
-				),
-			)
 		);
 		// $this->add_control(
 		// 	'main_image',
