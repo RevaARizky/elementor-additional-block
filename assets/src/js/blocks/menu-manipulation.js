@@ -42,6 +42,7 @@
 
             $('a').each((i, el) => {
                 var url = $(el).attr('href')
+                console.log(url, el)
                 switch (url) {
                     case "https://ab.gaiada.com/the-experience":
                     case "https://ab.gaiada.com/the-experience/":
