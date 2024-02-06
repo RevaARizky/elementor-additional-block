@@ -63,10 +63,12 @@ var __webpack_exports__ = {};
           case "https://ab.gaiada.com/contact-us":
           case "https://ab.gaiada.com/contact-us/":
             changeUrl(el, "https://ab.gaiada.com/contact-us-v5/");
+            break;
           case "/":
           case "https://ab.gaiada.com":
           case "https://ab.gaiada.com/":
             changeUrl(el, "https://ab.gaiada.com/home-v5/");
+            break;
         }
       });
     }
