@@ -14,6 +14,9 @@
                 success: cb
             })
         }
+        const closePopup = () => {
+            $('.popup-form-success').addClass('hidden')
+        }
         var formIds = []
         $('form').each((i, el) => {
             if(!$(el).data('form-id')) {
@@ -34,6 +37,16 @@
 
             formPopup.find('.target-message').text(window.customFormMessage[parseInt(form.data('form-id'))])
             formPopup.removeClass('hidden')
+            setTimeout(() => {
+                closePopup()
+            }, 5000)
+        })
+
+        $('.popup-form-success .overlay').on('click', () => {
+            closePopup()
+        })
+        $('.popup-form-success .close-button').on('click', () => {
+            closePopup()
         })
 
     })

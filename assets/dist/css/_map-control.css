@@ -166,6 +166,9 @@
   .custom-widget.map-control .right-4 {
     right: 1rem
 }
+  .custom-widget.map-control .right-8 {
+    right: 2rem
+}
   .custom-widget.map-control .right-\[16px\] {
     right: 16px
 }
@@ -177,6 +180,9 @@
 }
   .custom-widget.map-control .top-5 {
     top: 1.25rem
+}
+  .custom-widget.map-control .top-8 {
+    top: 2rem
 }
   .custom-widget.map-control .-z-10 {
     z-index: -10

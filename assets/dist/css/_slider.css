@@ -166,6 +166,9 @@
   .slider-block .right-4 {
   right: 1rem;
 }
+  .slider-block .right-8 {
+  right: 2rem;
+}
   .slider-block .right-\[16px\] {
   right: 16px;
 }
@@ -177,6 +180,9 @@
 }
   .slider-block .top-5 {
   top: 1.25rem;
+}
+  .slider-block .top-8 {
+  top: 2rem;
 }
   .slider-block .-z-10 {
   z-index: -10;

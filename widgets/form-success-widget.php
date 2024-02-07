@@ -187,6 +187,11 @@ class Elementor_Form_Success_Widget extends \Elementor\Widget_Base {
             <div class="popup-form-success hidden fixed inset-0 z-30 flex items-center justify-center">
                 <div class="overlay fixed inset-0 bg-black/70 -z-10"></div>
                 <div class="inner content-wrapper w-full max-w-5xl py-24 relative text-center" style="background-color: #414A50;">
+					<div class="close-button absolute top-8 right-8">
+						<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M28 2.82L25.18 0L14 11.18L2.82 0L0 2.82L11.18 14L0 25.18L2.82 28L14 16.82L25.18 28L28 25.18L16.82 14L28 2.82Z" fill="white"/>
+						</svg>
+					</div>
                     <div class="icon-wrapper mb-12">
                         <!-- <img src="<?= additional_blocks_assets_url('/dist/images/success-form.svg') ?>" class="w-full object-cover" alt=""> -->
 

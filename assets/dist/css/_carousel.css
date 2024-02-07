@@ -440,6 +440,10 @@
   right: 1rem;
 }
 
+.carousel-block .right-8 {
+  right: 2rem;
+}
+
 .carousel-block .right-\[16px\] {
   right: 16px;
 }
@@ -454,6 +458,10 @@
 
 .carousel-block .top-5 {
   top: 1.25rem;
+}
+
+.carousel-block .top-8 {
+  top: 2rem;
 }
 
 .carousel-block .-z-10 {

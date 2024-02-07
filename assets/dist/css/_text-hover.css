@@ -166,6 +166,9 @@
   .text-hover-block .right-4 {
   right: 1rem;
 }
+  .text-hover-block .right-8 {
+  right: 2rem;
+}
   .text-hover-block .right-\[16px\] {
   right: 16px;
 }
@@ -177,6 +180,9 @@
 }
   .text-hover-block .top-5 {
   top: 1.25rem;
+}
+  .text-hover-block .top-8 {
+  top: 2rem;
 }
   .text-hover-block .-z-10 {
   z-index: -10;

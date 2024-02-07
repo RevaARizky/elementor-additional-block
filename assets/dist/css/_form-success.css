@@ -166,6 +166,9 @@
   .custom-widget.form-success .right-4 {
   right: 1rem;
 }
+  .custom-widget.form-success .right-8 {
+  right: 2rem;
+}
   .custom-widget.form-success .right-\[16px\] {
   right: 16px;
 }
@@ -177,6 +180,9 @@
 }
   .custom-widget.form-success .top-5 {
   top: 1.25rem;
+}
+  .custom-widget.form-success .top-8 {
+  top: 2rem;
 }
   .custom-widget.form-success .-z-10 {
   z-index: -10;
