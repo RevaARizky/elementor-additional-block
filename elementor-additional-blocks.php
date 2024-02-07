@@ -12,3 +12,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once 'includes/template-tags.php';
 require_once 'includes/enqueue-assets.php';
 require_once 'includes/register-widget.php';
+require_once 'includes/ajax-handler.php';

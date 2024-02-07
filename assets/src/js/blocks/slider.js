@@ -18,7 +18,6 @@ import { ScrollToPlugin } from "gsap/all"
         var sliderWidthX
         document.querySelectorAll('.slider-block .slider-wrapper .slide-item').forEach((el, i) => {
             sliderWidth += el.clientWidth
-            console.log(sliderWidth)
             if(i+1 == document.querySelectorAll('.slider-wrapper .slide-item').length) {
                 sliderWidthX = sliderWidth - el.clientWidth
             }
@@ -54,7 +53,6 @@ import { ScrollToPlugin } from "gsap/all"
                         scrub: true,
                         end: `+=${sliderWidthX + calculateContainer + 48}`,
                         onUpdate: (self) => {
-                            console.log(self)
                             window.scrollTrig = self.labelToScroll
                             let currentProgress = Math.ceil(self.progress / threshold)
                             if(currentProgress == activeBefore || currentProgress == 0) {

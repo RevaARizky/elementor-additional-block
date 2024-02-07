@@ -7121,6 +7121,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/scss/blocks/_form-success.scss":
+/*!********************************************!*\
+  !*** ./src/scss/blocks/_form-success.scss ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./src/scss/blocks/_carousel.scss":
 /*!****************************************!*\
   !*** ./src/scss/blocks/_carousel.scss ***!
@@ -17830,6 +17842,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			"dist/css/_image-overlay": 0,
 /******/ 			"dist/css/_gallery": 0,
 /******/ 			"dist/css/_carousel": 0,
+/******/ 			"dist/css/_form-success": 0,
 /******/ 			"dist/css/_contact": 0,
 /******/ 			"dist/css/_text-hover": 0,
 /******/ 			"dist/css/_team": 0,
@@ -17883,16 +17896,17 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/js/blocks/carousel.js")))
-/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_carousel.scss")))
-/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_gallery.scss")))
-/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_image-overlay.scss")))
-/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_itrac.scss")))
-/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_map-control.scss")))
-/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_slider.scss")))
-/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_team.scss")))
-/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_text-hover.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_contact.scss")))
+/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_form-success","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/js/blocks/carousel.js")))
+/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_form-success","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_carousel.scss")))
+/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_form-success","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_gallery.scss")))
+/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_form-success","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_image-overlay.scss")))
+/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_form-success","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_itrac.scss")))
+/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_form-success","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_map-control.scss")))
+/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_form-success","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_slider.scss")))
+/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_form-success","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_team.scss")))
+/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_form-success","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_text-hover.scss")))
+/******/ 	__webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_form-success","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_contact.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["dist/css/_map-control","dist/css/_itrac","dist/css/_image-overlay","dist/css/_gallery","dist/css/_carousel","dist/css/_form-success","dist/css/_contact","dist/css/_text-hover","dist/css/_team","dist/css/_slider"], () => (__webpack_require__("./src/scss/blocks/_form-success.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

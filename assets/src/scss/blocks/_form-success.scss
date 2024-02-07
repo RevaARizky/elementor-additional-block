@@ -1,0 +1,29 @@
+.custom-widget.form-success {
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    @tailwind screens;
+
+    .text-title{
+        font-family: "Montserrat", sans-serif;
+        font-size: 30px;
+        line-height: 1;
+    }
+    .text-button {
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+    }
+    .text-phara{
+        font-family: "Open Sans";
+        font-size: 18px;
+    }    
+
+    @media only screen and (max-width:428px){
+        .text-title{
+            font-size: 18px;
+        }
+        .text-button, .text-phara {
+            font-size: 14px;
+        }
+    }
+}

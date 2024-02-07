@@ -468,6 +468,10 @@
   z-index: 20;
 }
 
+.carousel-block .z-30 {
+  z-index: 30;
+}
+
 .carousel-block .col-span-12 {
   grid-column: span 12 / span 12;
 }
@@ -483,6 +487,10 @@
 
 .carousel-block .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.carousel-block .mb-12 {
+  margin-bottom: 3rem;
 }
 
 .carousel-block .mb-2 {
@@ -708,11 +716,6 @@
   background-color: rgb(65 74 80 / var(--tw-bg-opacity));
 }
 
-.carousel-block .bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .carousel-block .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -767,9 +770,19 @@
   padding-bottom: 3rem;
 }
 
+.carousel-block .py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .carousel-block .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.carousel-block .py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .carousel-block .pt-\[125\%\] {
@@ -782,6 +795,10 @@
 
 .carousel-block .pt-\[75\%\] {
   padding-top: 75%;
+}
+
+.carousel-block .text-center {
+  text-align: center;
 }
 
 .carousel-block .font-light {

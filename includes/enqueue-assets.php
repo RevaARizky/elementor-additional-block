@@ -16,6 +16,7 @@ add_action('wp_enqueue_scripts', function () {
     wp_register_style("$styleName-team", additional_blocks_assets_url('/dist/css/_team.css'), [], null);
     wp_register_style("$styleName-text-hover", additional_blocks_assets_url('/dist/css/_text-hover.css'), [], null);
     wp_register_style("$styleName-slick-extra", additional_blocks_assets_url('/dist/css/_slick-extra.css'), [], null);
+    wp_register_style("$styleName-form-success", additional_blocks_assets_url('/dist/css/_form-success.css'), [], null);
     wp_enqueue_style("$styleName-contact", additional_blocks_assets_url('/dist/css/_contact.css'), [], null);
 
     /** Register custom JS */
@@ -28,6 +29,7 @@ add_action('wp_enqueue_scripts', function () {
     wp_register_script("$scriptName-slider", additional_blocks_assets_url('/dist/js/slider.js'), [], null, ['in_footer' => true, 'strategy' => 'defer']);
     wp_register_script("$scriptName-text-hover", additional_blocks_assets_url('/dist/js/text-hover.js'), [], null, ['in_footer' => true, 'strategy' => 'defer']);
     wp_register_script("$scriptName-slick-extra", additional_blocks_assets_url('/dist/js/slick-extra.js'), [], null, ['in_footer' => true, 'strategy' => 'defer']);
+    wp_register_script("$scriptName-form-success", additional_blocks_assets_url('/dist/js/form-success.js'), [], null, ['in_footer' => true, 'strategy' => 'defer']);
     wp_enqueue_script("$scriptName-contact", additional_blocks_assets_url('/dist/js/contact.js'), [], null, ['in_footer' => true, 'strategy' => 'defer']);
     wp_enqueue_script("$scriptName-menu-manipulation", additional_blocks_assets_url('/dist/js/menu-manipulation.js'), [], null, ['in_footer' => true, 'strategy' => 'defer']);
 });

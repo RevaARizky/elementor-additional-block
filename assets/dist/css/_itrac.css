@@ -205,6 +205,9 @@
   .itrac-block.custom-block .z-20 {
   z-index: 20;
 }
+  .itrac-block.custom-block .z-30 {
+  z-index: 30;
+}
   .itrac-block.custom-block .col-span-12 {
   grid-column: span 12 / span 12;
 }
@@ -217,6 +220,9 @@
 }
   .itrac-block.custom-block .mb-10 {
   margin-bottom: 2.5rem;
+}
+  .itrac-block.custom-block .mb-12 {
+  margin-bottom: 3rem;
 }
   .itrac-block.custom-block .mb-2 {
   margin-bottom: 0.5rem;
@@ -388,10 +394,6 @@
   --tw-bg-opacity: 1;
   background-color: rgb(65 74 80 / var(--tw-bg-opacity));
 }
-  .itrac-block.custom-block .bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
   .itrac-block.custom-block .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -435,9 +437,17 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+  .itrac-block.custom-block .py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
   .itrac-block.custom-block .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+  .itrac-block.custom-block .py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
   .itrac-block.custom-block .pt-\[125\%\] {
   padding-top: 125%;
@@ -447,6 +457,9 @@
 }
   .itrac-block.custom-block .pt-\[75\%\] {
   padding-top: 75%;
+}
+  .itrac-block.custom-block .text-center {
+  text-align: center;
 }
   .itrac-block.custom-block .font-light {
   font-weight: 300;

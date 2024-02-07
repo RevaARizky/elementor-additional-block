@@ -19,6 +19,8 @@ mix.babelConfig({
   plugins: ["@babel/plugin-syntax-dynamic-import"],
 });
 
+mix.copy("src/images", "dist/images");
+
 mix
   .js("src/js/blocks/carousel.js", "dist/js")
   .js("src/js/blocks/gallery.js", "dist/js")
@@ -29,6 +31,7 @@ mix
   .js("src/js/blocks/text-hover.js", "dist/js")
   .js("src/js/blocks/contact.js", "dist/js")
   .js("src/js/blocks/menu-manipulation.js", "dist/js")
+  .js("src/js/blocks/form-success.js", "dist/js")
 
   .sass("src/scss/blocks/_carousel.scss", "dist/css")
   .sass("src/scss/blocks/_gallery.scss", "dist/css")
@@ -39,6 +42,7 @@ mix
   .sass("src/scss/blocks/_team.scss", "dist/css")
   .sass("src/scss/blocks/_text-hover.scss", "dist/css")
   .sass("src/scss/blocks/_contact.scss", "dist/css")
+  .sass("src/scss/blocks/_form-success.scss", "dist/css")
   .options({
     processCssUrls: false,
     postCss: [require("tailwindcss")],

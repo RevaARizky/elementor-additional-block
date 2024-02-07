@@ -190,6 +190,9 @@
   .gallery-block.custom-block .z-20 {
   z-index: 20
 }
+  .gallery-block.custom-block .z-30 {
+  z-index: 30
+}
   .gallery-block.custom-block .col-span-12 {
   grid-column: span 12 / span 12
 }
@@ -202,6 +205,9 @@
 }
   .gallery-block.custom-block .mb-10 {
   margin-bottom: 2.5rem
+}
+  .gallery-block.custom-block .mb-12 {
+  margin-bottom: 3rem
 }
   .gallery-block.custom-block .mb-2 {
   margin-bottom: 0.5rem
@@ -373,10 +379,6 @@
   --tw-bg-opacity: 1;
   background-color: rgb(65 74 80 / var(--tw-bg-opacity))
 }
-  .gallery-block.custom-block .bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity))
-}
   .gallery-block.custom-block .object-cover {
   -o-object-fit: cover;
      object-fit: cover
@@ -420,9 +422,17 @@
   padding-top: 3rem;
   padding-bottom: 3rem
 }
+  .gallery-block.custom-block .py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem
+}
   .gallery-block.custom-block .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem
+}
+  .gallery-block.custom-block .py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem
 }
   .gallery-block.custom-block .pt-\[125\%\] {
   padding-top: 125%
@@ -432,6 +442,9 @@
 }
   .gallery-block.custom-block .pt-\[75\%\] {
   padding-top: 75%
+}
+  .gallery-block.custom-block .text-center {
+  text-align: center
 }
   .gallery-block.custom-block .font-light {
   font-weight: 300

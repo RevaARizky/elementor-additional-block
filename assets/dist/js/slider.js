@@ -9962,7 +9962,6 @@ __webpack_require__.r(__webpack_exports__);
     var sliderWidthX;
     document.querySelectorAll('.slider-block .slider-wrapper .slide-item').forEach(function (el, i) {
       sliderWidth += el.clientWidth;
-      console.log(sliderWidth);
       if (i + 1 == document.querySelectorAll('.slider-wrapper .slide-item').length) {
         sliderWidthX = sliderWidth - el.clientWidth;
       }
@@ -9994,7 +9993,6 @@ __webpack_require__.r(__webpack_exports__);
             scrub: true,
             end: "+=".concat(sliderWidthX + calculateContainer + 48),
             onUpdate: function onUpdate(self) {
-              console.log(self);
               window.scrollTrig = self.labelToScroll;
               var currentProgress = Math.ceil(self.progress / threshold);
               if (currentProgress == activeBefore || currentProgress == 0) {

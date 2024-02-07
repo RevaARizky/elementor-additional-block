@@ -8,13 +8,16 @@
     "/dist/js/text-hover.js": "/dist/js/text-hover.js",
     "/dist/js/contact.js": "/dist/js/contact.js",
     "/dist/js/menu-manipulation.js": "/dist/js/menu-manipulation.js",
+    "/dist/js/form-success.js": "/dist/js/form-success.js",
     "/dist/css/_map-control.css": "/dist/css/_map-control.css",
     "/dist/css/_itrac.css": "/dist/css/_itrac.css",
     "/dist/css/_image-overlay.css": "/dist/css/_image-overlay.css",
     "/dist/css/_gallery.css": "/dist/css/_gallery.css",
     "/dist/css/_carousel.css": "/dist/css/_carousel.css",
+    "/dist/css/_form-success.css": "/dist/css/_form-success.css",
     "/dist/css/_contact.css": "/dist/css/_contact.css",
     "/dist/css/_text-hover.css": "/dist/css/_text-hover.css",
     "/dist/css/_team.css": "/dist/css/_team.css",
-    "/dist/css/_slider.css": "/dist/css/_slider.css"
+    "/dist/css/_slider.css": "/dist/css/_slider.css",
+    "/dist/images/success-form.svg": "/dist/images/success-form.svg"
 }

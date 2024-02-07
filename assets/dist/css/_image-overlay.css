@@ -187,6 +187,9 @@
   .image-overlay-block .z-20 {
   z-index: 20;
 }
+  .image-overlay-block .z-30 {
+  z-index: 30;
+}
   .image-overlay-block .col-span-12 {
   grid-column: span 12 / span 12;
 }
@@ -199,6 +202,9 @@
 }
   .image-overlay-block .mb-10 {
   margin-bottom: 2.5rem;
+}
+  .image-overlay-block .mb-12 {
+  margin-bottom: 3rem;
 }
   .image-overlay-block .mb-2 {
   margin-bottom: 0.5rem;
@@ -370,10 +376,6 @@
   --tw-bg-opacity: 1;
   background-color: rgb(65 74 80 / var(--tw-bg-opacity));
 }
-  .image-overlay-block .bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
   .image-overlay-block .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -417,9 +419,17 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+  .image-overlay-block .py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
   .image-overlay-block .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+  .image-overlay-block .py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
   .image-overlay-block .pt-\[125\%\] {
   padding-top: 125%;
@@ -429,6 +439,9 @@
 }
   .image-overlay-block .pt-\[75\%\] {
   padding-top: 75%;
+}
+  .image-overlay-block .text-center {
+  text-align: center;
 }
   .image-overlay-block .font-light {
   font-weight: 300;

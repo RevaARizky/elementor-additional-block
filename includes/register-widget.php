@@ -53,5 +53,9 @@ function register_additional_blocks( $widgets_manager ) {
 
 	$widgets_manager->register( new \Elementor_Slick_Extra_Widget() );
 
+	require_once( __DIR__ . '/../widgets/form-success-widget.php' );
+
+	$widgets_manager->register( new \Elementor_Form_Success_Widget() );
+
 }
 add_action( 'elementor/widgets/register', 'register_additional_blocks' );

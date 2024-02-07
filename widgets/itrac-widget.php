@@ -256,7 +256,7 @@ class Elementor_Itrac_Widget extends \Elementor\Widget_Base {
 			<div class="popup-target fixed inset-0 z-20 flex justify-center items-center hidden text-white">
 				<div class="overlay fixed inset-0 bg-black/70 -z-10"></div>
 
-				<div class="inner bg-white w-full max-w-5xl bg-white content-wrapper m-3 relative" style="background-color: #414a50;">
+				<div class="inner w-full max-w-5xl m-3 relative" style="background-color: #414a50;">
 					<div class="content-wrapper">
 						<div class="swiper">
 							<div class="swiper-wrapper">
