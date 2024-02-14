@@ -33,15 +33,17 @@
             // document.querySelector('.map-icon-trigger').addEventListener('change', (e) => { e.currentTarget.checked ? iconHandler(map.map) : iconHandler(null) })
 
             const popupHandler = (i) => {
+                window.mapActiveIndex = false
                 markers.forEach(data => {
                     if(data.id == i) {
-                        data.marker.setMap(map.map)
-                        map.infobox.setContent(data.infowindow_data)
-                        map.infobox.open(data.marker.map, data.marker)
+                        window.mapActiveIndex = i
                     } else {
                         data.marker.setMap(null)
                     }
                 })
+                markers[window.mapActiveIndex].marker.setMap(map.map)
+                map.infobox.setContent(markers[window.mapActiveIndex].infowindow_data)
+                map.infobox.open(markers[window.mapActiveIndex].marker.map, markers[window.mapActiveIndex].marker)
             }
 
             document.querySelectorAll('.link-to-map').forEach(el => {
