@@ -31,6 +31,27 @@
             }
     
             mainel.forEach(el => {
+                let options = el.querySelectorAll('option')
+                for (let i = 0; i < options.length; i++) {
+                    if(options[i].value.startsWith('group-')) {
+                        stateWhile = true;
+                        let optgroup = document.createElement("optgroup")
+                        optgroup.label = options[i].value.slice(6)
+                        options[i].remove()
+                        while(i < options.length && stateWhile) {
+                            ++i
+                            if(options[i]?.value.startsWith('group-')) {
+                                stateWhile = false
+                                --i
+                            } else {
+                                if(options[i]) {
+                                    optgroup.append(options[i])
+                                }
+                            }
+                        }
+                        el.querySelector('select').append(optgroup)
+                    }
+                }
                 jQuery(el.querySelector('select')).select2({
                     matcher: matchCustom
                 })
