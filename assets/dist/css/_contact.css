@@ -32,23 +32,36 @@
   position: relative;
 }
 
+.custom-number-wrapper input::-webkit-outer-spin-button, .custom-number-wrapper input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.custom-number-wrapper input {
+  -moz-appearance: textfield;
+}
+
 .arrow-up {
   position: absolute;
   background-color: #d75c00;
   right: 0;
-  display: inline-block;
   top: 0;
   height: 21px;
   cursor: pointer;
+  display: none;
 }
 
 .arrow-down {
   position: absolute;
   background-color: #d75c00;
   right: 0;
-  display: inline-block;
   bottom: 0;
   height: 50%;
   height: 21px;
   cursor: pointer;
+  display: none;
+}
+
+.custom-number-wrapper:hover .arrow-down, .custom-number-wrapper:hover .arrow-up {
+  display: inline-block;
 }
