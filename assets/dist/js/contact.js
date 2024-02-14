@@ -34,6 +34,28 @@ var __webpack_exports__ = {};
         return null;
       };
       mainel.forEach(function (el) {
+        var options = el.querySelectorAll('option');
+        for (var i = 0; i < options.length; i++) {
+          if (options[i].value.startsWith('group-')) {
+            stateWhile = true;
+            var optgroup = document.createElement("optgroup");
+            optgroup.label = options[i].value.slice(6);
+            options[i].remove();
+            while (i < options.length && stateWhile) {
+              var _options$i;
+              ++i;
+              if ((_options$i = options[i]) !== null && _options$i !== void 0 && _options$i.value.startsWith('group-')) {
+                stateWhile = false;
+                --i;
+              } else {
+                if (options[i]) {
+                  optgroup.append(options[i]);
+                }
+              }
+            }
+            el.querySelector('select').append(optgroup);
+          }
+        }
         jQuery(el.querySelector('select')).select2({
           matcher: matchCustom
         });
