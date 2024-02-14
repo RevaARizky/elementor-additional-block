@@ -29,3 +29,27 @@
     background-color: #636569;
     color: #fff;
 }
+
+
+.custom-number-wrapper {
+    position: relative;
+}
+.arrow-up {
+    position: absolute;
+    background-color: #d75c00;
+    right: 0;
+    display: inline-block;
+    top: 0;
+    height: 21px;
+    cursor: pointer;
+}
+.arrow-down {
+    position: absolute;
+    background-color: #d75c00;
+    right: 0;
+    display: inline-block;
+    bottom: 0;
+    height: 50%;
+    height: 21px;
+    cursor: pointer;
+}
