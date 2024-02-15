@@ -39,17 +39,17 @@ var __webpack_exports__ = {};
 
       // document.querySelector('.map-icon-trigger').addEventListener('change', (e) => { e.currentTarget.checked ? iconHandler(map.map) : iconHandler(null) })
 
+      window.mapActiveIndex = false;
       var popupHandler = function popupHandler(i) {
-        window.mapActiveIndex = false;
-        markers.forEach(function (data) {
+        markers.forEach(function (data, index) {
           if (data.id == i) {
-            window.mapActiveIndex = i;
+            window.mapActiveIndex = index;
           } else {
             data.marker.setMap(null);
           }
         });
-        markers[window.mapActiveIndex].marker.setMap(map.map);
         map.infobox.setContent(markers[window.mapActiveIndex].infowindow_data);
+        markers[window.mapActiveIndex].marker.setMap(map.map);
         map.infobox.open(markers[window.mapActiveIndex].marker.map, markers[window.mapActiveIndex].marker);
       };
       document.querySelectorAll('.link-to-map').forEach(function (el) {

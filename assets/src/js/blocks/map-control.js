@@ -32,17 +32,17 @@
 
             // document.querySelector('.map-icon-trigger').addEventListener('change', (e) => { e.currentTarget.checked ? iconHandler(map.map) : iconHandler(null) })
 
+            window.mapActiveIndex = false
             const popupHandler = (i) => {
-                window.mapActiveIndex = false
-                markers.forEach(data => {
+                markers.forEach((data, index) => {
                     if(data.id == i) {
-                        window.mapActiveIndex = i
+                        window.mapActiveIndex = index
                     } else {
                         data.marker.setMap(null)
                     }
                 })
-                markers[window.mapActiveIndex].marker.setMap(map.map)
                 map.infobox.setContent(markers[window.mapActiveIndex].infowindow_data)
+                markers[window.mapActiveIndex].marker.setMap(map.map)
                 map.infobox.open(markers[window.mapActiveIndex].marker.map, markers[window.mapActiveIndex].marker)
             }
 
