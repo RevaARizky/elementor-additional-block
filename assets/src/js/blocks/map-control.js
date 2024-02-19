@@ -46,7 +46,9 @@
                 map.map.setCenter(markers[window.mapActiveIndex].marker.getPosition())
                 map.infobox.open(markers[window.mapActiveIndex].marker.map, markers[window.mapActiveIndex].marker)
                 console.log(map.infobox.div_)
-                map.infobox.panBox_()
+                setTimeout(() => {
+                    map.infobox.panBox_()
+                }, 200)
             }
 
             document.querySelectorAll('.link-to-map').forEach(el => {
