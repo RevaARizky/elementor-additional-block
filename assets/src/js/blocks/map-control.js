@@ -43,8 +43,9 @@
                 })
                 map.infobox.setContent(markers[window.mapActiveIndex].infowindow_data)
                 markers[window.mapActiveIndex].marker.setMap(map.map)
-                // map.map.setCenter(markers[window.mapActiveIndex].marker.getPosition())
+                map.map.setCenter(markers[window.mapActiveIndex].marker.getPosition())
                 map.infobox.open(markers[window.mapActiveIndex].marker.map, markers[window.mapActiveIndex].marker)
+                console.log(map.infobox)
                 map.infobox.panBox_()
             }
 
