@@ -52,6 +52,7 @@ var __webpack_exports__ = {};
         markers[window.mapActiveIndex].marker.setMap(map.map);
         map.map.setCenter(markers[window.mapActiveIndex].marker.getPosition());
         map.infobox.open(markers[window.mapActiveIndex].marker.map, markers[window.mapActiveIndex].marker);
+        map.infobox.panBox_();
       };
       document.querySelectorAll('.link-to-map').forEach(function (el) {
         el.addEventListener('click', function (e) {
