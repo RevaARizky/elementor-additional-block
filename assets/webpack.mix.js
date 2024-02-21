@@ -32,6 +32,7 @@ mix
   .js("src/js/blocks/contact.js", "dist/js")
   .js("src/js/blocks/menu-manipulation.js", "dist/js")
   .js("src/js/blocks/form-success.js", "dist/js")
+  .js("src/js/blocks/slick-extra.js", "dist/js")
 
   .sass("src/scss/blocks/_carousel.scss", "dist/css")
   .sass("src/scss/blocks/_gallery.scss", "dist/css")

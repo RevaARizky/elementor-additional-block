@@ -32,4 +32,5 @@ add_action('wp_enqueue_scripts', function () {
     wp_register_script("$scriptName-form-success", additional_blocks_assets_url('/dist/js/form-success.js'), [], null, ['in_footer' => true, 'strategy' => 'defer']);
     wp_enqueue_script("$scriptName-contact", additional_blocks_assets_url('/dist/js/contact.js'), [], null, ['in_footer' => true, 'strategy' => 'defer']);
     wp_enqueue_script("$scriptName-menu-manipulation", additional_blocks_assets_url('/dist/js/menu-manipulation.js'), [], null, ['in_footer' => true, 'strategy' => 'defer']);
+    wp_enqueue_script("$scriptName-slick-extra", additional_blocks_assets_url('/dist/js/slick-extra.js'), [], null, ['in_footer' => true, 'strategy' => 'defer']);
 });
