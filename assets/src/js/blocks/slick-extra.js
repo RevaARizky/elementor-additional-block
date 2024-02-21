@@ -7,6 +7,7 @@
         }
 
         const setSliderOpt = (el) => {
+            console.log(jQuery(el))
             jQuery(el).slick('slickSetOption', 'adaptiveHeight', true, true)
             jQuery(el).slick('refresh')
         }
