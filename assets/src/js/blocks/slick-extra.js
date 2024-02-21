@@ -5,10 +5,10 @@
         if(!mainel.length) {
             return false
         }
-        return false
 
         const setSliderOpt = (el) => {
             jQuery(el).slick('slickSetOption', 'adaptiveHeight', true, false)
+            jQuery(el).slick('resize')
             console.log(jQuery(el).slick('getSlick'))
         }
 
