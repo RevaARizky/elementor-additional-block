@@ -455,11 +455,11 @@
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
+  .itrac-block.custom-block .pt-\[100\%\] {
+  padding-top: 100%;
+}
   .itrac-block.custom-block .pt-\[125\%\] {
   padding-top: 125%;
-}
-  .itrac-block.custom-block .pt-\[420px\] {
-  padding-top: 420px;
 }
   .itrac-block.custom-block .pt-\[75\%\] {
   padding-top: 75%;
@@ -499,6 +499,16 @@
   @media (min-width: 768px) {
   .itrac-block.custom-block .md\:col-span-7 {
     grid-column: span 7 / span 7;
+  }
+}
+  @media (min-width: 768px) {
+  .itrac-block.custom-block .md\:block {
+    display: block;
+  }
+}
+  @media (min-width: 768px) {
+  .itrac-block.custom-block .md\:hidden {
+    display: none;
   }
 }
   @media (min-width: 768px) {

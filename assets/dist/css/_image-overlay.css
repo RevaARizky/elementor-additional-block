@@ -437,11 +437,11 @@
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
+  .image-overlay-block .pt-\[100\%\] {
+  padding-top: 100%;
+}
   .image-overlay-block .pt-\[125\%\] {
   padding-top: 125%;
-}
-  .image-overlay-block .pt-\[420px\] {
-  padding-top: 420px;
 }
   .image-overlay-block .pt-\[75\%\] {
   padding-top: 75%;
@@ -481,6 +481,16 @@
   @media (min-width: 768px) {
   .image-overlay-block .md\:col-span-7 {
     grid-column: span 7 / span 7;
+  }
+}
+  @media (min-width: 768px) {
+  .image-overlay-block .md\:block {
+    display: block;
+  }
+}
+  @media (min-width: 768px) {
+  .image-overlay-block .md\:hidden {
+    display: none;
   }
 }
   @media (min-width: 768px) {
