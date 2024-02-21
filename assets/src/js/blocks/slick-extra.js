@@ -1,6 +1,6 @@
-(() => {
+(($) => {
 
-    document.addEventListener("loadingScreenCompleted", () => {
+    jQuery(document).on("loadingScreenCompleted", () => {
         const mainel = document.querySelectorAll('.jet-carousel .elementor-slick-slider')
         if(!mainel.length) {
             return false
@@ -29,4 +29,4 @@
 
     })
 
-})()
+})(jQuery)
