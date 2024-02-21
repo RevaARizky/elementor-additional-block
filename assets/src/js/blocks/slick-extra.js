@@ -9,7 +9,6 @@
         const setSliderOpt = (el) => {
             console.log(jQuery(el).slick('getSlick'))
             jQuery(el).slick('slickSetOption', 'adaptiveHeight', true, true)
-            jQuery(el).slick('refresh')
         }
 
         mainel.forEach(el => {
