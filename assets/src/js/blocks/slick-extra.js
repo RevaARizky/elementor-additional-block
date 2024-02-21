@@ -16,14 +16,15 @@
             if(el.classList.contains('slick-initialized')) {
                 setSliderOpt(el)
                 return false
+            } else {
+                const observer = new MutationObserver((list) => {
+                    if(el.classList.contains('slick-initialized')) {
+                        observer.disconnect()
+                        setSliderOpt(el)
+                    }
+                })
+                observer.observe(el, {attributes: true})
             }
-            const observer = new MutationObserver((list) => {
-                if(el.classList.contains('slick-initialized')) {
-                    observer.disconnect()
-                    setSliderOpt(el)
-                }
-            })
-            observer.observe(el, {attributes: true})
         })
 
     })
