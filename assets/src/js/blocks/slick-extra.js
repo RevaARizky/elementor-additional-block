@@ -1,6 +1,6 @@
 (() => {
 
-    document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("loadingScreenCompleted", () => {
         const mainel = document.querySelectorAll('.jet-carousel .elementor-slick-slider')
         if(!mainel.length) {
             return false
@@ -13,6 +13,10 @@
         }
 
         mainel.forEach(el => {
+            if(el.classList.contains('slick-initialized')) {
+                setSliderOpt(el)
+                return false
+            }
             const observer = new MutationObserver((list) => {
                 if(el.classList.contains('slick-initialized')) {
                     observer.disconnect()
