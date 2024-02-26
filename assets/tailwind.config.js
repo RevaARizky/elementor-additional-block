@@ -12,6 +12,12 @@ module.exports = {
     './src/scss/**/*.scss',
     './src/js/**/*.js',
   ],
+  safelist: [
+    {
+      pattern: /col-span-.+/,
+      variants: ['lg', 'xl']
+    }
+  ],
   theme: {
     colors: {
       'dark-grey': '#636569',

@@ -232,7 +232,34 @@ class Elementor_Custom_Team_Widget extends \Elementor\Widget_Base {
 	 */
 	protected function content_template() {
         ?>
-        <div></div>
+        <section class="team-block custom-block">
+			<div class="outer-wrapper bg-dark-grey">
+				<div class="inner container mx-auto text-white">
+					<div class="grid grid-cols-12 items-center gap-8">
+					<# _.each(settings.team, function(value, index) { #>
+						<div class="xl:col-span-4 col-span-12">
+							<div class="image-wrapper relative pt-[125%]">
+								<img src="{{value.image.url}}" class="absolute inset-0 w-full h-full object-cover grayscale" alt="">
+							</div>
+						</div>
+						<div class="xl:col-span-8 col-span-12">
+							<div class="text-wrapper">
+								<div class="position-wrapper mb-2">
+									<p class="text-title">{{value.position}}</p>
+								</div>
+								<div class="name-wrapper mb-2">
+									<p class="text-title">{{value.name}}</p>
+								</div>
+								<div class="description-wrapper">
+									<p class="text-phara">{{value.description}}</p>
+								</div>
+							</div>
+						</div>
+					<# }) #>
+					</div>
+				</div>
+			</div>
+        </section>
         <?php
     }
 

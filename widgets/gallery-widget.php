@@ -206,7 +206,23 @@ class Elementor_Gallery_Widget extends \Elementor\Widget_Base {
 	 */
 	protected function content_template() {
         ?>
-        <div></div>
+        <section class="gallery-block custom-block">
+			<div class="inner-section bg-dark-grey">
+				<div class="grid grid-cols-12 gap-5">
+				<# _.each(settings.images, function(value, index) { #>
+					<div class="col-span-{{value.size}}">
+						<div class="inner wrapper xl:h-[600px] h-[400px] w-full relative" data-aos="fade-in">
+							<# if(new RegExp('(jpg|gif|png|jpeg|webp|heic|svg|heif)$').test(value.image.url)) { #>
+								<img src="{{value.image.url}}" alt="" class="absolute inset-0 w-full !h-full object-cover">
+							<# } else if(new RegExp('(mp4|m4v|mpg|mov|vtt|avi|ogv|wmv|3gp|3g2)$').test(value.image.url)) { #>
+								<video src="{{value.image.url}}" muted autoplay loop class="absolute inset-0 w-full !h-full object-cover"></video>
+							<# } #>
+						</div>
+					</div>
+				<# }) #>
+				</div>
+			</div>
+        </section>
         <?php
     }
 

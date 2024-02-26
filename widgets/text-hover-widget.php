@@ -255,7 +255,42 @@ class Elementor_Text_Hover_Widget extends \Elementor\Widget_Base {
 	 */
 	protected function content_template() {
         ?>
-        <div></div>
+        <section class="text-hover-block custom-block">
+			<div class="inner-section relative bg-dark-grey">
+				<div class="grid grid-cols-12 relative z-10">
+				<# _.each(settings.items, function(value, index) { #>
+						<div class="xl:col-span-3 col-span-12 xl:h-screen h-[300px] content-wrapper relative" data-index="{{index}}">
+							<div class="inner-wrapper flex flex-col justify-center h-full xl:items-center">
+								<div class="text-wrapper text-white px-8 relative z-10">
+									<div class="title-wrapper mb-2.5">
+										<h3 class="font-montserrat text-title">{{value.title}}</h3>
+									</div>
+									<div class="description-wrapper overflow-hidden ">
+										<a href="{{value.btn_url.url}}">
+											<p class="mb-8 text-phara text-white">{{value.description}}</p>
+										</a>
+									</div>
+									<div class="button-wrapper">
+										<div class="inner-button inline-block relative">
+											<a href="{{value.btn_url.url}}" class="text-phara text-white">{{value.btn_text}}</a>
+											<div class="bottom-line absolute -bottom-[4px] w-[26px;] h-[2px]" style="background-color: #D75C00;"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="image-bg xl:hidden block overlay-bg-before">
+								<img src="{{value.image.url}}" class="absolute inset-0 object-cover w-full !h-full" style="z-index: 1" alt="">
+							</div>
+						</div>
+					<# }) #>
+				</div>
+				<div class="image-wrapper overlay-bg-before hidden xl:block">
+				<# _.each(settings.items, function(value, index) { #>
+					<img src="{{value.image.url}}" class="absolute inset-0 w-full !h-full object-cover" style="{{index == 0 ? 'opacity: 1; visibility: visible; z-index: 1;' : 'opacity: 0; visibility: hidden; z-index: 0;' }}" data-index="{{index}}" alt="">
+				<# }) #>
+				</div>
+			</div>
+        </section>
         <?php
     }
 

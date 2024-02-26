@@ -278,7 +278,75 @@ class Elementor_Carousel_Widget extends \Elementor\Widget_Base {
 	 */
 	protected function content_template() {
         ?>
-        <div></div>
+        <section class="carousel-block custom-block" style="min-height: unset!important">
+			<div class="outer-wrapper bg-dark-grey text-white overflow-x-hidden">
+				<div class="container px-0 bg-darker-grey">
+					<div class="grid grid-cols-12">
+						<div class="md:col-span-7 col-span-12">
+							<div class="image-slider-wrapper h-full swiper">
+								<div class="swiper-wrapper">
+									<# _.each(settings.carousel_items, function(value, index) { #>
+										<div class="swiper-slide">
+											<div class="image-wrapper relative md:h-full h-auto md:pt-0 pt-[75%] w-full">
+												<img src="{{value.image.url}}" class="absolute inset-0 w-full h-full object-cover" alt="">
+											</div>
+										</div>
+									<# } ) #>
+								</div>
+							</div>
+						</div>
+						<div class="md:col-span-5 col-span-12 bg-darker-grey px-9 py-12 flex flex-col justify-center">
+							<div class="navigation-wrapper flex mb-10 items-center relative" style="justify-content: unset!important;">
+								<div class="counter-wrapper mr-3">
+									<# var total = settings.carousel_items.length < 10 ? '0' + settings.carousel_items.length : settings.carousel_items.length #>
+									<p class="" style="margin-bottom: 0;font-size:18px"><span class="current-counter">01</span>/<span class="total-counter">{{{total}}}</span></p>
+								</div>
+								<div class="line-wrapper mr-3">
+									<hr class="bg-airbali-theme border-airbali-theme w-[100px]" style="height: 1px;">
+								</div>
+								<div class="title-wrapper w-full">
+									<div class="title-slider-wrapper swiper">
+										<div class="swiper-wrapper">
+											<# _.each(settings.carousel_items, function(value, index) { #>
+											<div class="swiper-slide">
+												<div class="text-wrapper">
+													<p class="" style="margin-bottom: 0;font-size:18px;letter-spacing: 3px;">{{value.title}}</p>
+												</div>
+											</div>
+											<# }) #>
+										</div>
+									</div>
+								</div>
+								<div class="button-wrapper flex gap-x-8">
+									<div class="prev absolute top-0 right-[16px] translate-y-1/4 cursor-pointer z-20">
+										<svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12" fill="none" style="display: block;">
+											<path d="M6.15084 10.9497L1.20109 6L6.15084 1.05025" stroke="white"/>
+										</svg>
+									</div>
+									<div class="next absolute top-0 right-0 translate-y-1/4 cursor-pointer z-20">
+										<svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12" fill="none" style="display: block;">
+											<path d="M1.05033 1.05025L6.00008 6L1.05033 10.9497" stroke="white"/>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="content-wrapper">
+								<div class="content-slider-wrapper swiper">
+									<div class="swiper-wrapper">
+									<# _.each(settings.carousel_items, function(value, index) { #>
+										<div class="swiper-slide">
+											<p class="mb-6 text-title">{{value.subtitle}}</p>
+											<p class="font-light text-phara" style="margin-bottom: 0;">{{value.description}}</p>
+										</div>
+									<# }) #>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </section>
         <?php
     }
 
