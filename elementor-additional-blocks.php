@@ -3,6 +3,7 @@
  * Plugin Name: Elementor Additional Blocks
  * Description: Elementor Additional Blocks (combines previously used plugin).
  * Author:      Reva Athallah
+ * Version:		1.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
